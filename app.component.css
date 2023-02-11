@@ -1,0 +1,85 @@
+.personInfoForm{
+    width: auto;
+    height: auto;
+    }
+    
+    .selectDiv{
+    max-width: 200px;
+    }
+    
+    .canceloOrContinue{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+    }
+    
+    .saveDraftorContinue{
+        display: flex;
+        justify-content: end;
+    }
+    .setPosition{
+     position: relative;
+     margin-top: 15px;
+    }
+    header{
+        background-color:#a8b2bb;
+    }
+    
+    .singleRow{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+    }
+    
+    .searchWidth{
+        display: flex;
+        max-width: 300px;
+        justify-content: flex-start;
+    }
+    
+    .headerPosistion{
+        display: flex;
+        justify-content: space-between;
+        background-color: aqua;
+    }
+    
+    .requirement {
+        min-width: 900px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+    
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .mainDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    
+    .personalInfoDiv{
+    min-width: 1000px;
+    min-height: 30px;
+    }
+    
+    .label{
+        min-width: 200px;
+        font-family: Heebo-Regular;
+        font-size: 12px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        text-align: left;
+        color: #a8b2bb;
+    }
+    
